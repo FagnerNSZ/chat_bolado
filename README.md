@@ -19,8 +19,8 @@ module.exports = Animal;
 
 var Animal = require("./animal.js");
 var john = new Animal(3);
-   console.log(john);<br>
-   console.log(john._age);
+console.log(john);
+console.log(john._age);
    
 ------
 # Resultado
