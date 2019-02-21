@@ -1,6 +1,6 @@
 # chat_bolado
 
-#animal.js
+# animal.js
 var method = Animal.prototype;
 
 function Animal(age) {
@@ -15,7 +15,15 @@ module.exports = Animal;
 
 -----
 
-#index.js
+# index.js
 
 var Animal = require("./animal.js");
 var john = new Animal(3);
+   console.log(john);
+   console.log(john._age);
+   
+------
+# Resultado
+
+     Animal { _age: 3 }
+     3
